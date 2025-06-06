@@ -1,6 +1,6 @@
 {
     "name": "easywallet-sdk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "EasyWallet Core SDK - Google + Wallet authentication for Web3",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
