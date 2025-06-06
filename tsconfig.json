@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "declaration": true,
+      "declarationMap": true,
+      "moduleResolution": "node",
+      "module": "esnext",
+      "target": "ES2019",
+      "isolatedModules": false,
+      "strict": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "jsx": "react-jsx"
+    },
+    "include": ["src"]
+  }
