@@ -1,4 +1,4 @@
-# EasyWallet Core
+# EasyWallet SDK
 
 🚀 **Google + Wallet (SIWE) Web3 Authentication SDK**  
 Secure, gasless, and easy to integrate in your React/Next.js app.
