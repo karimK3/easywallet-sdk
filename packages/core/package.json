@@ -1,0 +1,21 @@
+{
+    "name": "@easywallet/sdk",
+    "version": "1.0.0",
+    "description": "EasyWallet SDK - Google + Wallet authentication for Web3",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": ["dist"],
+    "scripts": {
+      "build": "tsc -p tsconfig.json",
+      "prepublishOnly": "pnpm run build",
+      "test": "vitest run"
+    },
+    "peerDependencies": {
+      "ethers": "^6"
+    },
+    "devDependencies": {
+      "vitest": "^1.6.1",
+      "typescript": "^5.3.3"
+    },
+    "license": "MIT"
+  }
