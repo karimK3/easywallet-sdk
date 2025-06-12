@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dw/@easywallet/react?color=%2390caf9&label=downloads)](https://www.npmjs.com/package/@easywallet/react)
 [![GitHub stars](https://img.shields.io/github/stars/karimK3/easywallet?style=social)](https://github.com/karimK3/easywallet)
 
-A powerful React SDK to authenticate users with **Google OAuth + Ethereum wallets**, manage sessions, and enable token-gated experiences — with just a few lines of code.
+A powerful React SDK to authenticate users with **Google OAuth + Ethereum wallets**, manage sessions, and enable token-gated experiences with just a few lines of code.
 
 ---
 

@@ -6,7 +6,7 @@
 
 Server-side SDK for EasyWallet. Provides authentication with Google OAuth and Wallet (SIWE) on the backend.
 
-The **backend SDK** for EasyWallet — enabling secure authentication via **Google OAuth 2.0 + Ethereum wallet signature (SIWE)** in Node.js and serverless environments.
+The **backend SDK** for EasyWallet, enabling secure authentication via **Google OAuth 2.0 + Ethereum wallet signature (SIWE)** in Node.js and serverless environments.
 
 ---
 

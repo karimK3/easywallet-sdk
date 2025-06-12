@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/karimK3/easywallet?style=social)](https://github.com/karimK3/easywallet)
 
 
-The **core engine** behind EasyWallet — a lightweight, server-ready SDK that fetches wallet data such as balances, NFTs, token prices, and handles combined authentication using Google OAuth and Ethereum wallets.
+The **core engine** behind EasyWallet, a lightweight server-ready SDK that fetches wallet data such as balances, NFTs, token prices, and handles combined authentication using Google OAuth and Ethereum wallets.
 
 ---
 
