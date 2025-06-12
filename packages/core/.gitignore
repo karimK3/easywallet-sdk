@@ -1,0 +1,10 @@
+# packages/core/.gitignore
+dist/
+node_modules/
+packages/core/tests/**/*.js
+packages/core/tests/**/*.d.ts
+packages/core/tests/**/*.js.map
+packages/core/tests/**/*.d.ts.map
+.turbo
+.env
+.env.local
