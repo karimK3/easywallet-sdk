@@ -11,8 +11,9 @@ import { ethers } from "ethers";
 import {
   getPrice,
   TOKENS,
+  TokenInfo,
   signInWithGoogleAndWallet,
-} from "@easywallet/sdk";
+} from "@easywallet/core";
 
 type Balances = {
   eth: number;
@@ -81,7 +82,7 @@ export const EasyWalletProvider = ({ children }: { children: React.ReactNode }) 
         tokenBalances.push({ symbol, amount, valueUsd: 0, coingeckoId });
       }
 
-      const prices = await getPrice(["ethereum", ...TOKENS.map(t => t.coingeckoId)]);
+      const prices = await getPrice(["ethereum", ...TOKENS.map((t: TokenInfo) => t.coingeckoId)]);
       const ethUsd = Number(prices.ethereum ?? 0);
       let total = eth * ethUsd;
 

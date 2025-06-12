@@ -1,5 +1,5 @@
 {
-    "name": "@easywallet/sdk",
+    "name": "@easywallet/core",
     "version": "1.0.0",
     "description": "EasyWallet SDK - Google + Wallet authentication for Web3",
     "main": "dist/index.js",

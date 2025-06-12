@@ -1,8 +1,8 @@
 # 🧠 EasyWallet Core SDK
 
 
-[![npm](https://img.shields.io/npm/v/@easywallet/sdk?color=%2360a5fa&label=npm%20version)](https://www.npmjs.com/package/@easywallet/sdk)
-[![npm](https://img.shields.io/npm/dw/@easywallet/sdk?color=%2390caf9&label=downloads)](https://www.npmjs.com/package/@easywallet/sdk)
+[![npm](https://img.shields.io/npm/v/@easywallet/core?color=%2360a5fa&label=npm%20version)](https://www.npmjs.com/package/@easywallet/core)
+[![npm](https://img.shields.io/npm/dw/@easywallet/core?color=%2390caf9&label=downloads)](https://www.npmjs.com/package/@easywallet/core)
 [![GitHub stars](https://img.shields.io/github/stars/karimK3/easywallet?style=social)](https://github.com/karimK3/easywallet)
 
 
@@ -83,7 +83,7 @@ A verified **EasyWallet session object**, signed via SIWE.
 
 ## 🧩 Part of the EasyWallet SDK Suite
 
-This package is part of the [EasyWallet SDK](https://github.com/easywallet/easywallet-sdk):
+This package is part of the [EasyWallet SDK](https://github.com/easywallet/easywallet-core):
 
 - [`@easywallet/core`](https://www.npmjs.com/package/@easywallet/core) – you are here.
 - [`@easywallet/react`](https://www.npmjs.com/package/@easywallet/react) – React UI components.
