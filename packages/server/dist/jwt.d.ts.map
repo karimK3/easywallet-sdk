@@ -1,1 +1,0 @@
-{"version":3,"file":"jwt.d.ts","sourceRoot":"","sources":["../src/jwt.ts"],"names":[],"mappings":"AAAA,OAAO,GAAoB,MAAM,cAAc,CAAC;AAEhD,wBAAgB,SAAS,CAAC,OAAO,EAAE,MAAM,EAAE,MAAM,EAAE,GAAG,CAAC,MAAM,EAAE,SAAS,GAAE,MAAe,UAKxF;AAED,wBAAgB,SAAS,CAAC,KAAK,EAAE,MAAM,EAAE,MAAM,EAAE,GAAG,CAAC,MAAM,2BAE1D"}

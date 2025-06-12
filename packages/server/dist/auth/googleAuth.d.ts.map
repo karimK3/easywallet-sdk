@@ -1,1 +1,0 @@
-{"version":3,"file":"googleAuth.d.ts","sourceRoot":"","sources":["../../src/auth/googleAuth.ts"],"names":[],"mappings":"AASA,UAAU,cAAc;IACtB,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,CAAC;CACjB;AAED,wBAAsB,gBAAgB,CAAC,IAAI,EAAE,MAAM;;;;;GAgClD;AAED,wBAAsB,iBAAiB,CAAC,WAAW,EAAE,MAAM,GAAG,OAAO,CAAC,cAAc,CAAC,CAqBpF"}
