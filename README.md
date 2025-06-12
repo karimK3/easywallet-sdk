@@ -1,4 +1,4 @@
-# 🧰 EasyWallet SDK
+# EasyWallet SDK
 
 The official SDK suite for **EasyWallet** — a modular toolkit to integrate **Google OAuth + Ethereum (SIWE)** authentication and wallet utilities into your Web3 apps, both frontend and backend.
 
