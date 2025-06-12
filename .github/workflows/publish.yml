@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  release:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,14 +18,29 @@ jobs:
 
       - run: npm install -g pnpm@10
 
-      - run: pnpm install
-
-      - run: pnpm run -r build
-
-      - name: Publish packages
+      - name: Publish @easywallet/core
         run: |
-          cd packages/core && npm publish --access public || true
-          cd ../react && npm publish --access public || true
-          cd ../server && npm publish --access public || true
+          cd packages/core
+          pnpm install
+          pnpm run build
+          npm publish --access public || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish @easywallet/react
+        run: |
+          cd packages/react
+          pnpm install
+          pnpm run build
+          npm publish --access public || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish @easywallet/server
+        run: |
+          cd packages/server
+          pnpm install
+          pnpm run build
+          npm publish --access public || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
