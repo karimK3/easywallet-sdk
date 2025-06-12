@@ -1,6 +1,6 @@
 {
   "name": "@easywallet/react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React SDK for EasyWallet (Web3 Authentication)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
