@@ -21,7 +21,7 @@ jobs:
       - name: Publish @easywallet/core
         run: |
           cd packages/core
-          pnpm install
+          pnpm install --no-frozen-lockfile
           pnpm run build
           npm publish --access public || true
         env:
@@ -30,7 +30,7 @@ jobs:
       - name: Publish @easywallet/react
         run: |
           cd packages/react
-          pnpm install
+          pnpm install --no-frozen-lockfile
           pnpm run build
           npm publish --access public || true
         env:
@@ -39,7 +39,7 @@ jobs:
       - name: Publish @easywallet/server
         run: |
           cd packages/server
-          pnpm install
+          pnpm install --no-frozen-lockfile
           pnpm run build
           npm publish --access public || true
         env:
