@@ -1,0 +1,31 @@
+name: Publish SDK packages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org/'
+
+      - run: npm install -g pnpm@10
+
+      - run: pnpm install
+
+      - run: pnpm run -r build
+
+      - name: Publish packages
+        run: |
+          cd packages/core && npm publish --access public || true
+          cd ../react && npm publish --access public || true
+          cd ../server && npm publish --access public || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
