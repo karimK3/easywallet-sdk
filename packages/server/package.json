@@ -1,12 +1,11 @@
 {
   "name": "@easywallet/server",
-  "version": "1.0.4",
+  "version": "1.0.1",
   "description": "Server SDK for EasyWallet (Google OAuth2 + SIWE + JWT)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",

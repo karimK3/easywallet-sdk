@@ -1,27 +1,24 @@
 {
   "name": "@easywallet/react",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "React SDK for EasyWallet (Web3 Authentication)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@easywallet/core": "^1.0.1"
+    "@easywallet/core": "workspace:*"
   },
   "peerDependencies": {
-    "ethers": "^6",
-    "react": "^18 || ^19"
+    "react": "^18 || ^19",
+    "ethers": "^6"
   },
   "devDependencies": {
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
     "typescript": "^5.3.3"
   },
   "license": "MIT",
